@@ -1,0 +1,31 @@
+.titleNames span{
+    color:#191e55!important;
+    font-weight:bold;
+}
+.o_lineIco{
+    width:300px;
+    height:2px;
+    background:url(https://bctf.xctf.org.cn/static/theme/sky_blue/img/bor.jpg) repeat-x;
+    display:inline-block;
+    vertical-align:8px;
+}
+.o_leftIco,.o_rightIco{
+    width:40px;
+    height:18px;
+    background:url(https://bctf.xctf.org.cn/static/theme/sky_blue/img/jx.png) no-repeat;
+    background-size: 100% 100%;
+    display:inline-block;
+}
+.o_rightIco{
+    transform:rotate(180deg);
+}
+.titleNames{
+    /*margin-bottom:10px;*/
+    display:inline-block;
+    font-family:"english",'微软雅黑',serif;
+    width:100%;
+    text-align:center;
+    margin-top:35px;
+    /*margin-bottom:10px;*/
+    min-width:1200px;
+}
